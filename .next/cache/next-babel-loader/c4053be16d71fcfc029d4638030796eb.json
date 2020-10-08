@@ -1,0 +1,1 @@
+{"ast":null,"code":"import axios from 'axios';\nexport class ProdutoService {\n  static async listarProdutos() {\n    const request = axios.get('http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline');\n    return (await request).data;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import styled from 'styled-components';\nexport const GaleriaDiv = styled.div.withConfig({\n  displayName: \"galeriastyle__GaleriaDiv\",\n  componentId: \"sc-1eqwifa-0\"\n})([\".sidebar{}.containerProdutos{height:calc(100vh - 160px);width:100%;}\"]);","map":null,"metadata":{},"sourceType":"module"}

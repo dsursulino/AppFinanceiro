@@ -1,0 +1,1 @@
+{"ast":null,"code":"import styled from 'styled-components';\nexport var Container = styled.div.withConfig({\n  displayName: \"style__Container\",\n  componentId: \"sc-11xe1ka-0\"\n})([\"height:90px;width:100%;display:flex;#logo{height:100%;}\"]);","map":null,"metadata":{},"sourceType":"module"}

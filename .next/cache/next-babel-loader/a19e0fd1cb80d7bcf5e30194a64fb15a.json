@@ -1,0 +1,1 @@
+{"ast":null,"code":"import axios from 'axios';\nexport class CepService {\n  static async buscarEndereco(cep) {\n    const request = axios.get('https://viacep.com.br/ws/' + cep + '/json');\n    return (await request).data;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

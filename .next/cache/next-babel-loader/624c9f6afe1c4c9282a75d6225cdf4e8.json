@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { createContext } from 'react';\nimport { Ficha } from '../../../Entities/Ficha';\n;\nvar etapaState = {\n  value: new Ficha(),\n  Atualizar: null\n};\nvar EtapaContext = /*#__PURE__*/createContext(etapaState);\nexport default EtapaContext;","map":null,"metadata":{},"sourceType":"module"}
